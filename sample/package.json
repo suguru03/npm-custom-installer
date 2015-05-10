@@ -1,0 +1,10 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "func-comparator": "0.4.0",
+    "neo-async": "^0.6.0"
+  }
+}
