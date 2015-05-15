@@ -19,6 +19,7 @@
   "dependencies": {
     "commander": "^2.8.1",
     "js-beautify": "^1.5.5",
-    "lodash": "^3.8.0"
+    "lodash": "^3.8.0",
+    "neo-async": "^1.1.2"
   }
 }
