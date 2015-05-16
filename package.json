@@ -1,7 +1,7 @@
 {
   "name": "npm-custom-installer",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "npm-custom-installer is enable to use dependencies of user defined.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
