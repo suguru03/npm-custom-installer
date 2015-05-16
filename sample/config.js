@@ -9,7 +9,7 @@ module.exports = {
     'func-comparator': {
       version: '0.6.0',
       dependencies: {
-        'neo-async': '^1.0.1'
+        'neo-async': '^1.0.0'
       }
     }
   }
