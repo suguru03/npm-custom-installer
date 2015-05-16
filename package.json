@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/suguru03/npm-custom-installer",
   "dependencies": {
-    "commander": "^2.8.1",
     "js-beautify": "^1.5.5",
     "lodash": "^3.8.0",
+    "minimist": "^1.1.1",
     "neo-async": "^1.1.2"
   }
 }

@@ -11,6 +11,13 @@ module.exports = {
       dependencies: {
         'neo-async': '^1.0.0'
       }
+    },
+    mocha: {
+      version: '2.2.5',
+      dependencies: {
+        commander: '=2.8.1',
+        'glob': '^5.0.0'
+      }
     }
   }
 };

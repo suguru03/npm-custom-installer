@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "func-comparator": "0.4.0",
+    "minimist": "^1.1.1",
+    "mocha": "2.0.0",
     "neo-async": "^0.6.0"
   }
 }

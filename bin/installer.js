@@ -2,13 +2,10 @@
 
 'use strict';
 
-var program = require('commander');
+var argv = require('minimist')(process.argv.slice(2));
 
 var installer = require('../lib/installer');
+var conf = argv.c || argv.conf;
 
-program
-  .command('install')
-  .option('-c, --conf <path>', 'config path')
-  .action(installer);
+installer({ conf: conf });
 
-program.parse(process.argv);
