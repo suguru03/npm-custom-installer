@@ -1,9 +1,10 @@
+#!/usr/bin/env node
+
 'use strict';
 
-var path = require('path');
 var program = require('commander');
 
-var installer = require('./lib/installer');
+var installer = require('../lib/installer');
 
 program
   .command('install')

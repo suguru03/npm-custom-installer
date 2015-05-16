@@ -2,7 +2,7 @@
   "name": "npm-custom-installer",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "MIT",
+  "bin": {
+    "npm-custom-installer": "./bin/installer.js"
+  },
   "bugs": {
     "url": "https://github.com/suguru03/npm-custom-installer/issues"
   },
